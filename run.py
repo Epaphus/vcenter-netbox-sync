@@ -1505,14 +1505,14 @@ class NetBoxHandler:
                 {
                     "name": "Server",
                     "slug": "server",
-                    "color": "9e9e9e",
+                    "color": settings.DEVICE_ROLE_COLOR,
                     "vm_role": True
                 }],
             "tags": [
                 {
                     "name": "Orphaned",
                     "slug": "orphaned",
-                    "color": "607d8b",
+                    "color": settings.ORPHANED_TAG_COLOR,
                     "comments": "This applies to objects that have become "
                                 "orphaned. The source system which has "
                                 "previously provided the object no longer "

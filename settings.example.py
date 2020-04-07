@@ -50,3 +50,10 @@ NB_PORT = 443
 NB_PRUNE_ENABLED = True
 # How many days should to wait before pruning an orphaned object
 NB_PRUNE_DELAY_DAYS = 0
+
+# Tag Colour settings
+# Device role colour setting.
+DEVICE_ROLE_COLOR = "9e9e9e"
+# Orphaned tag colour setting.
+ORPHANED_TAG_COLOR = "607d8b"
+
